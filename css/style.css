@@ -139,7 +139,7 @@ header {
 }
 
 .promo {
-	background: url(/img/background__header.png);
+	background: url(../img/background__header.png);
 	height: 715px;
 	background-repeat: no-repeat;
 	background-position: center;
