@@ -1,140 +1,131 @@
 /* montserrat-regular - latin_cyrillic */
 @font-face {
-   font-family: "Montserrat";
-   font-style: normal;
-   font-weight: 400;
-   src: url("../fonts/montserrat-v25-latin_cyrillic-regular.eot");
-   /* IE9 Compat Modes */
-   src: local(""), url("../fonts/montserrat-v25-latin_cyrillic-regular.eot?#iefix") format("embedded-opentype"),
-      /* IE6-IE8 */
-      url("../fonts/montserrat-v25-latin_cyrillic-regular.woff2") format("woff2"),
-      /* Super Modern Browsers */
-      url("../fonts/montserrat-v25-latin_cyrillic-regular.woff") format("woff"),
-      /* Modern Browsers */
-      url("../fonts/montserrat-v25-latin_cyrillic-regular.ttf") format("truetype"),
-      /* Safari, Android, iOS */
-      url("../fonts/montserrat-v25-latin_cyrillic-regular.svg#Montserrat") format("svg");
-   /* Legacy iOS */
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 400;
+	src: url("../fonts/montserrat-v25-latin_cyrillic-regular.eot");
+	/* IE9 Compat Modes */
+	src: local(""), url("../fonts/montserrat-v25-latin_cyrillic-regular.eot?#iefix") format("embedded-opentype"),
+		/* IE6-IE8 */
+		url("../fonts/montserrat-v25-latin_cyrillic-regular.woff2") format("woff2"),
+		/* Super Modern Browsers */
+		url("../fonts/montserrat-v25-latin_cyrillic-regular.woff") format("woff"),
+		/* Modern Browsers */
+		url("../fonts/montserrat-v25-latin_cyrillic-regular.ttf") format("truetype"),
+		/* Safari, Android, iOS */
+		url("../fonts/montserrat-v25-latin_cyrillic-regular.svg#Montserrat") format("svg");
+	/* Legacy iOS */
 }
 
 /* montserrat-500 - latin_cyrillic */
 @font-face {
-   font-family: "Montserrat";
-   font-style: normal;
-   font-weight: 500;
-   src: url("../fonts/montserrat-v25-latin_cyrillic-500.eot");
-   /* IE9 Compat Modes */
-   src: local(""), url("../fonts/montserrat-v25-latin_cyrillic-500.eot?#iefix") format("embedded-opentype"),
-      /* IE6-IE8 */
-      url("../fonts/montserrat-v25-latin_cyrillic-500.woff2") format("woff2"),
-      /* Super Modern Browsers */
-      url("../fonts/montserrat-v25-latin_cyrillic-500.woff") format("woff"),
-      /* Modern Browsers */
-      url("../fonts/montserrat-v25-latin_cyrillic-500.ttf") format("truetype"),
-      /* Safari, Android, iOS */
-      url("../fonts/montserrat-v25-latin_cyrillic-500.svg#Montserrat") format("svg");
-   /* Legacy iOS */
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 500;
+	src: url("../fonts/montserrat-v25-latin_cyrillic-500.eot");
+	/* IE9 Compat Modes */
+	src: local(""), url("../fonts/montserrat-v25-latin_cyrillic-500.eot?#iefix") format("embedded-opentype"),
+		/* IE6-IE8 */
+		url("../fonts/montserrat-v25-latin_cyrillic-500.woff2") format("woff2"),
+		/* Super Modern Browsers */
+		url("../fonts/montserrat-v25-latin_cyrillic-500.woff") format("woff"),
+		/* Modern Browsers */
+		url("../fonts/montserrat-v25-latin_cyrillic-500.ttf") format("truetype"),
+		/* Safari, Android, iOS */
+		url("../fonts/montserrat-v25-latin_cyrillic-500.svg#Montserrat") format("svg");
+	/* Legacy iOS */
 }
 
 * {
-   margin: 0;
-   padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 :root {
-   --textColor: #533738;
-   --btnBg: #cc8b86;
-   --bgBlocks: #8d7370;
-   --white: #ffffff;
-   --owrWorksBg: rgba(100, 72, 69, 0.8);
-   --black: black;
+	--textColor: #533738;
+	--btnBg: #cc8b86;
+	--bgBlocks: #8d7370;
+	--white: #ffffff;
+	--owrWorksBg: rgba(100, 72, 69, 0.8);
+	--black: black;
 }
 
 .syte {
-   /* max-width: 1400px; */
-   /* margin: auto; */
-   width: 1400px;
-   margin: 0 auto;
-   /* border: solid 1px #999; */
+	width: 1400px;
+	margin: 0 auto;
 }
 
 button {
-   padding: 0;
-   border: none;
-   font: inherit;
-   color: inherit;
-   background-color: transparent;
-   cursor: pointer;
+	padding: 0;
+	border: none;
+	font: inherit;
+	color: inherit;
+	background-color: transparent;
+	cursor: pointer;
 }
 
 body {
-   background-color: #efe6e4;
-   height: 100%;
-   font-family: "Montserrat", sans-serif;
-   font-style: normal;
-   font-weight: 400;
-   font-size: 1em;
+	background-color: #efe6e4;
+	height: 100%;
+	font-family: "Montserrat", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1em;
 }
 
 ul {
-   padding-left: 0;
-   list-style-type: none;
+	padding-left: 0;
+	list-style-type: none;
 }
 
 a {
-   text-decoration: none;
+	text-decoration: none;
 }
 
 img {
-   height: 100%;
-   width: 100%;
-   object-fit: cover;
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
 }
 
-/* header {
-   position: absolute;
-} */
-
 header {
-   position: absolute;
-   width: 1400px;
+	position: absolute;
+	width: 1400px;
 }
 
 /* Начало навигаций */
-
 .nav {
-   display: flex;
-   flex-direction: row;
-   flex-wrap: nowrap;
-   justify-content: space-evenly;
-   margin-top: 26px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	margin-top: 26px;
 }
 
 .logo {
-   display: flex;
-   align-items: center;
+	display: flex;
+	align-items: center;
 }
 
 .logo__img {
-   width: 25px;
-   height: 25px;
+	width: 25px;
+	height: 25px;
 }
 
 .nav__ul {
-   display: flex;
-   flex-direction: row;
-   gap: 26px;
-   align-items: center;
-   /* Надо узнать как быть с переполнением */
+	display: flex;
+	flex-direction: row;
+	gap: 26px;
+	align-items: center;
 }
 
 .nav__contact {
-   display: flex;
-   align-items: center;
+	display: flex;
+	align-items: center;
 }
 
 .nav a {
-   color: var(--textColor);
+	color: var(--textColor);
 }
 
 /* Конец навигаций */
@@ -143,52 +134,53 @@ header {
 
 /* Начало верх сайта */
 .visibility__hidden {
-   visibility: hidden;
-   position: absolute;
+	visibility: hidden;
+	position: absolute;
 }
 
 .promo {
-   /* Есть проблемы спросить  */
-   background: url(/img/background__header.png);
-   height: 715px;
-   /* Есть проблемы спросить  если % или VH */
-   background-repeat: no-repeat;
-   background-position: center;
-   background-size: cover;
-   /* GOOGLE https://fructcode.com/ru/qa/vstavit-kartinku-kak-fon-h1-i-zatemnit-v-css--tibquo/ */
+	background: url(/img/background__header.png);
+	height: 715px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 
 .promo__ditail {
-   padding-top: 152px;
-   padding-left: 184px;
+	padding-top: 152px;
+	padding-left: 184px;
 }
 
 .promo-title {
-   font-size: 50px;
-   line-height: 62px;
-   color: var(--textColor);
-   width: 40%;
-   padding-bottom: 24px;
+	font-size: 50px;
+	line-height: 62px;
+	color: var(--textColor);
+	width: 40%;
+	padding-bottom: 24px;
 }
 
 .promo-discription {
-   font-size: 18px;
-   line-height: 30px;
-   color: var(--textColor);
-   width: 40%;
+	font-size: 18px;
+	line-height: 30px;
+	color: var(--textColor);
+	width: 40%;
 }
 
 .div-promo-btn {
-   margin-top: 46px;
+	margin-top: 46px;
 }
 
 .promo-btn {
-   padding: 25px 65px;
-   font-weight: 500;
-   font-size: 20px;
-   line-height: 24px;
-   color: var(--textColor);
-   background-color: var(--btnBg);
+	padding: 25px 65px;
+}
+
+.btn-style {
+	width: fit-content;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	color: var(--textColor);
+	background-color: var(--btnBg);
 }
 
 /* Конец верх сайта */
@@ -197,33 +189,33 @@ header {
 
 /* Начало О НАС */
 .container-about {
-   display: flex;
-   flex-direction: row;
-   justify-content: center;
-   gap: 62px;
-   padding: 40px 0 21px 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap: 62px;
+	padding: 40px 0 21px 0;
 }
 
 .about-title {
-   margin-top: 65px;
+	margin-top: 65px;
 }
 
 .about-title-p {
-   font-size: 40px;
-   line-height: 50px;
-   text-transform: uppercase;
-   text-align: center;
+	font-size: 40px;
+	line-height: 50px;
+	text-transform: uppercase;
+	text-align: center;
 }
 
 .about-img {
-   width: 444px;
-   height: 465px;
+	width: 444px;
+	height: 465px;
 }
 
 .about-text {
-   width: 38%;
-   font-size: 18px;
-   line-height: 30px;
+	width: 38%;
+	font-size: 18px;
+	line-height: 30px;
 }
 
 /* Конец О НАС */
@@ -232,30 +224,30 @@ header {
 
 /* Блок с опытом работы фирмы */
 .info__numbers {
-   padding-top: 85px;
-   padding-bottom: 81px;
-   margin-bottom: 65px;
-   background-color: var(--bgBlocks);
+	padding-top: 85px;
+	padding-bottom: 81px;
+	margin-bottom: 65px;
+	background-color: var(--bgBlocks);
 }
 
 .info__numbers ul {
-   display: flex;
-   justify-content: center;
-   gap: 270px;
+	display: flex;
+	justify-content: center;
+	gap: 270px;
 }
 
 .number {
-   font-size: 50px;
-   line-height: 62px;
-   color: #ffffff;
-   text-align: center;
+	font-size: 50px;
+	line-height: 62px;
+	color: #ffffff;
+	text-align: center;
 }
 
 .title-number {
-   font-size: 30px;
-   line-height: 37px;
-   text-transform: uppercase;
-   color: #ffffff;
+	font-size: 30px;
+	line-height: 37px;
+	text-transform: uppercase;
+	color: #ffffff;
 }
 
 /* КОНЕЦ Блок с опытом работы фирмы */
@@ -265,88 +257,86 @@ header {
 /* Начало НАШИ РАБОТЫ */
 
 .our__works {
-   padding: 0 100px;
-   width: fit-content;
-   margin: auto;
+	padding: 0 100px;
+	width: fit-content;
+	margin: auto;
 }
 
 .our__works-title {
-   /* text-align: left; */
-   font-size: 40px;
-   line-height: 50px;
-   text-transform: uppercase;
-   color: var(--textColor);
-   padding-bottom: 40px;
+	font-size: 40px;
+	line-height: 50px;
+	text-transform: uppercase;
+	color: var(--textColor);
+	padding-bottom: 40px;
 }
 
 .our__works-container-one {
-   margin-bottom: 30px;
+	margin-bottom: 30px;
 }
 
 .our__works-container {
-   display: flex;
-   flex-direction: row;
-   gap: 20px;
-   /* justify-content: center; */
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
 }
 
 .text__works {
-   position: relative;
+	position: relative;
 }
 
 .text__works:hover .text__discription {
-   visibility: visible;
+	visibility: visible;
 }
 
 .text__discription {
-   visibility: hidden;
-   position: absolute;
-   top: 0;
-   background: rgba(100, 72, 69, 0.8);
-   width: 100%;
-   height: 451px;
+	visibility: hidden;
+	position: absolute;
+	top: 0;
+	background: rgba(100, 72, 69, 0.8);
+	width: 100%;
+	height: 451px;
 }
 
 .text__discription h3 {
-   margin-top: 86px;
-   font-weight: 500;
-   font-size: 30px;
-   line-height: 37px;
-   text-align: center;
-   color: var(--white);
+	margin-top: 86px;
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 37px;
+	text-align: center;
+	color: var(--white);
 }
 
 .text__discription p {
-   padding: 35px;
-   font-size: 18px;
-   line-height: 30px;
-   color: var(--white);
+	padding: 35px;
+	font-size: 18px;
+	line-height: 30px;
+	color: var(--white);
 }
 
 .work-img_v1 {
-   width: 488px;
-   height: 451px;
+	width: 488px;
+	height: 451px;
 }
 
 .work-img_v2 {
-   width: 692px;
-   height: 451px;
+	width: 692px;
+	height: 451px;
 }
 
 .watch__more {
-   font-weight: 500;
-   font-size: 30px;
-   line-height: 37px;
-   margin-top: 40px;
-   text-align: center;
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 37px;
+	margin-top: 40px;
+	text-align: center;
 }
 
 .watch__more a {
-   color: var(--textColor);
+	color: var(--textColor);
 }
 
 .watch__more-img {
-   width: 60px;
+	width: 60px;
 }
 
 /* Конец НАШИ РАБОТЫ */
@@ -356,96 +346,96 @@ header {
 /* Начало Команда -Как мы работаем  */
 
 .section-info__team {
-   margin-top: 65px;
-   padding-top: 50px;
+	margin-top: 65px;
+	padding-top: 50px;
 }
 
 .title-info__team p {
-   font-size: 40px;
-   line-height: 50px;
-   text-transform: uppercase;
-   color: var(--textColor);
-   text-align: center;
-   padding-bottom: 40px;
+	font-size: 40px;
+	line-height: 50px;
+	text-transform: uppercase;
+	color: var(--textColor);
+	text-align: center;
+	padding-bottom: 40px;
 }
 
 .container-info__team {
-   display: flex;
-   justify-content: center;
-   gap: 28px;
+	display: flex;
+	justify-content: center;
+	gap: 28px;
 }
 
 .info__team-img {
-   width: 320px;
-   height: 223px;
+	width: 320px;
+	height: 223px;
 }
 
 .team {
-   width: 320px;
+	width: 320px;
 }
 
 .team p {
-   width: 100%;
-   font-size: 18px;
-   line-height: 30px;
-   color: var(--textColor);
+	width: 100%;
+	font-size: 18px;
+	line-height: 30px;
+	color: var(--textColor);
 }
 
 .team__footer {
-   margin-bottom: 80px;
-   padding: 0 100px;
+	margin-bottom: 80px;
+	padding: 0 100px;
 }
 
 .team__footer-list {
-   display: flex;
-   justify-content: center;
-   gap: 20px;
+	display: flex;
+	justify-content: center;
+	gap: 20px;
 }
 
 .team__footer-list li {
-   text-align: center;
-   font-size: 18px;
-   line-height: 30px;
-   color: var(--textColor);
+	text-align: center;
+	font-size: 18px;
+	line-height: 30px;
+	color: var(--textColor);
 }
 
 .title-how p {
-   text-align: center;
-   font-size: 40px;
-   line-height: 50px;
-   text-transform: uppercase;
-   color: var(--textColor);
-   margin-top: 35px;
-   margin-bottom: 40px;
+	text-align: center;
+	font-size: 40px;
+	line-height: 50px;
+	text-transform: uppercase;
+	color: var(--textColor);
+	margin-top: 35px;
+	margin-bottom: 40px;
 }
 
 .team__footer {
-   display: flex;
-   flex-wrap: wrap;
-   margin-top: 40px;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 40px;
 }
 
 .team__footer-list {
-   display: flex;
-   flex-direction: row;
-   margin-bottom: 20px;
-   list-style: none;
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 20px;
+	list-style: none;
 }
 
 .team__footer-list span {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   margin: 0 auto;
-   margin-bottom: 20px;
-   width: 70px;
-   height: 70px;
-   border-radius: 50%;
-   background-color: var(--bgBlocks);
-   color: var(--white);
-   font-weight: 500;
-   font-size: 30px;
-   line-height: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	background-color: var(--bgBlocks);
+	color: var(--white);
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 30px;
 }
 
 /* Конец Команда- НАШИ РАБОТЫ */
@@ -455,69 +445,70 @@ header {
 /* Отзывы */
 
 .reviews-title {
-   font-size: 40px;
-   line-height: 50px;
-   text-transform: uppercase;
-   color: var(--textColor);
-   text-align: center;
+	font-size: 40px;
+	line-height: 50px;
+	text-transform: uppercase;
+	color: var(--textColor);
+	text-align: center;
 }
 
 .reviews-button {
-   width: 72px;
-   height: 72px;
-   border-radius: 50%;
-   background: #cc8b86;
+	width: 72px;
+	height: 72px;
+	border-radius: 50%;
+	background: #cc8b86;
 }
 
 .reviews-button-prev svg {
-   transform: scaleX(-1);
-   /* Отражение картинки по горизонтали */
+	transform: rotate(-180deg);
 }
 
 .btn-left {
-   display: flex;
-   align-items: center;
-   margin-left: 29px;
+	display: flex;
+	align-items: center;
+	margin-left: 29px;
 }
 
 .btn-right {
-   display: flex;
-   align-items: center;
-   margin-right: 29px;
+	display: flex;
+	align-items: center;
+	margin-right: 29px;
 }
 
 .reviews-container {
-   display: flex;
-   justify-content: center;
-   /* height: 658px; */
+	display: flex;
+	justify-content: center;
+	/* height: 658px; */
 }
 
 .reviews {
-   display: flex;
-   justify-content: flex-end;
+	width: 30%;
 }
 
 .reviews p {
-   width: 407px;
-   margin-top: 131px;
-   margin-right: 20px;
-   margin-bottom: 158px;
-   /* height: 100%; */
-   font-size: 18px;
-   line-height: 30px;
-   color: var(--textColor);
+	/* max-width: 407px; */
+	margin-top: 131px;
+	margin-right: 20px;
+	margin-bottom: 158px;
+	/* height: 100%; */
+	font-size: 18px;
+	line-height: 30px;
+	color: var(--textColor);
 }
 
 .reviews-img {
-   display: flex;
-   flex-direction: column;
-   margin-top: 40px;
-   gap: 24px;
+	/* width: 50%; */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 40px;
+	gap: 24px;
 }
 
 .reviews-img img {
-   width: 407px;
-   height: 272px;
+	width: 407px;
+	height: 272px;
 }
 
 /* Конец Отзывы */
@@ -526,56 +517,69 @@ header {
 
 /* Форма обратной связи  */
 .request-section {
-   background-color: var(--bgBlocks);
+	background-color: var(--bgBlocks);
 }
 
 .request-container {
-   display: flex;
-   justify-content: center;
+	display: flex;
+	justify-content: center;
 }
 
 .form {
-   width: 508px;
-   margin-top: 50px;
+	padding: 50px 20px 0 181px;
 }
 
 .title-form {
-   font-size: 40px;
-   line-height: 50px;
-   text-transform: uppercase;
-   color: var(--white);
+	font-size: 40px;
+	line-height: 50px;
+	text-transform: uppercase;
+	color: var(--white);
 }
 
 .text-form {
-   font-size: 18px;
-   line-height: 30px;
-   color: var(--white);
-   opacity: 0.6;
-   margin-top: 24px;
-   margin-bottom: 44px;
+	font-size: 18px;
+	line-height: 30px;
+	color: var(--white);
+	opacity: 0.6;
+	margin-top: 24px;
+	margin-bottom: 44px;
 }
 
-.name-form-name,
-.name-form-tel {
-   font-size: 18px;
-   line-height: 30px;
-   color: #f6ede9;
+.request-section__form {
+	display: flex;
+	flex-direction: column;
+	gap: 35px;
 }
 
-.name-form-bg {
-   /* background-color: var(--bgBlocks);
-   border-bottom: 1px solid #f00;
- */
+
+input[type="text"],
+input[type="number"] {
+	background: none;
+	color: var(--white);
+	border: none;
+	border-bottom: 1px solid var(--white);
+	padding-bottom: 4px;
+	outline: none;
+	-webkit-appearance: none;
+}
+
+::placeholder {
+	color: var(--white);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
 }
 
 .request-img {
-   padding-right: 101px;
-   padding-top: 3px;
+	padding-right: 101px;
+	padding-top: 3px;
 }
 
 .request-img img {
-   width: 590px;
-   height: 624px;
+	width: 590px;
+	height: 624px;
 }
 
 /* КОНЕЦ Форма обратной связи  */
@@ -583,21 +587,17 @@ header {
 /* ------------ */
 
 /* FOOTER */
-.footer {}
 
 .footer-ul {
-   display: flex;
-   flex-direction: row;
-   justify-content: space-evenly;
-   padding: 37px 100px;
-	position: relative;
-	gap: 872px;
+	display: flex;
+	flex-direction: row;
+	padding: 37px 100px;
 	color: var(--textColor);
 }
 
 .adress {
-	position: absolute;
-	left: 25%;
 
+	margin: 0 379px 0 42px;
 }
+
 /* Конец FOOTER */
